@@ -1,0 +1,44 @@
+@font-face{
+  font-family:main;
+  src:url(../css/fonts/Roboto-Light.ttf)}
+
+html, body{
+  height:100%;
+  width:100%;}
+
+*{
+  font-family: main;
+  text-align: left;}
+
+ #navbar{
+  color: white;
+  background-color:black;}
+
+.divNav{
+  width:100%;
+  max-width:2000px;
+  height:100%;
+  max-height:75px;}
+
+#icon{
+  margin-left:27%;}
+
+.divProduto{
+  width:500px;
+  height:500px;}
+
+.produtos{
+  width:100%;}
+
+.comprar{
+  border: 1px solid gray;
+  border-radius:20px;
+  height:250px;
+  width:90%;}
+
+.footer{
+  background-color:black;
+  color:white;
+  height:150px;
+  text-align: center;
+  font-size:15px;}

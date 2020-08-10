@@ -1,0 +1,80 @@
+@font-face{
+  font-family:main;
+  src:url(../fonts/Roboto-Light.ttf)}
+
+html, body{
+  height:100%;
+  width:100%;}
+
+*{
+  font-family: main;
+  text-align: justify;}
+
+ #navbar{
+  color: white;
+  background-color:transparent;}
+
+.mainDiv{
+  background-image:url(../img/bg.jpeg) !important;
+  background-size:cover;
+  background-color:black;
+  background-attachment: fixed;
+  width:100%;
+  max-width:2000px;
+  height:100%;
+  max-height:700px;
+  opacity: 1;}
+
+#icon{
+  margin-left:27%;}
+
+.carouselSize{
+  width:1579px;
+  height:405px;}
+
+#divAbout{
+  background-color:white;
+  height:320px;
+  width:100%;
+  color:black;
+  margin-top:60px; 
+  margin-bottom: 60px;}
+
+.linhamob{
+  display: none;}
+
+.footer{
+  background-color:black;
+  color:white;
+  height:150px;
+  text-align: center;
+  font-size:15px;}
+
+.btn-dark:hover{
+  background-color:#FFD700;
+  color:black;
+  border-color:#FFD700;}
+
+.nav-item{
+  border-radius:10px;
+  margin-right:5px;}
+
+.nav-item:hover{
+  background-color:#FFD700;}
+
+.fixed-top.scrolled{
+  background-color: black !important;
+  transition: background-color 200ms linear;}
+
+.linha-vertical {
+  height: 15px;
+  border-left: 2px solid;}
+
+.aboutme{
+  border-radius:200px;
+  border: 2px solid black;
+  opacity: 0.80;}
+
+.aboutme:hover{
+  opacity: 1;}
+
